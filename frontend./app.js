@@ -22,7 +22,7 @@ class Chatbox {
             if (key === "Enter") {
                 this.onSendButton(chatBox)
             }
-        })
+        });
     }
 
     toggleState(chatbox) {
